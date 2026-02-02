@@ -28,7 +28,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10% auto;
+    margin: 12% auto;
     font-size: 14px;
 }
 
@@ -46,8 +46,8 @@ body {
 }
 img{
     border-radius: 50%;
-    width: 76px;
-    height: 76px;
+    width: 106px;
+    height: 106px;
     margin-bottom: 20px;
 }
 /*----------------------------------------------------------------------*/
@@ -82,4 +82,7 @@ img{
     border-radius: 10px;
     width: 100%;
     font-family: 'SemiBold';
+}
+.item1{
+    margin-bottom: 0;
 }
