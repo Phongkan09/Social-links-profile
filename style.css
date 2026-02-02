@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'SemiBold';
+    src: url(assets/fonts/static/Inter-SemiBold.ttf);
+}
+
+/*-----------------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: hsl(0, 0%, 8%);
+    font-family: 'MyFont';
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15% auto;
+    font-size: 14px;
+}
+
+/*----------------------------------------------------------------------*/
+.card {
+    background: hsl(0, 0%, 12%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 40px;
+    width: 400px;
+    height: auto;
+}
+img{
+    border-radius: 50%;
+    width: 76px;
+    height: 76px;
+    margin-bottom: 20px;
+}
+/*----------------------------------------------------------------------*/
+.name{
+    font-family: 'SemiBold';
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.city{
+    font-family: 'SemiBold';
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.explain{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+/*-----------------------------------------------------------------------*/
+.Blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.box{
+    background-color: hsl(0, 0%, 20%);
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    font-family: 'SemiBold';
+}
