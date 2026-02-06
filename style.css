@@ -76,6 +76,7 @@ img{
 }
 .box{
     background-color: hsl(0, 0%, 20%);
+    cursor: pointer;
     margin-bottom: 20px;
     text-align: center;
     padding: 15px;
@@ -83,6 +84,15 @@ img{
     width: 100%;
     font-family: 'SemiBold';
 }
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 .item1{
     margin-bottom: 0;
+}
+
+/*---------------------------------------------------------------------*/
+.box:hover{
+    background-color: hsl(0, 0%, 8%);
 }
